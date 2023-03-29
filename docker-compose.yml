@@ -1,0 +1,7 @@
+services:
+  wp_cron:
+    image: joltdesign/wp-cron
+    build:
+      context: build
+    volumes:
+      - ./build/src/:/usr/local/bin/wp-cron/
