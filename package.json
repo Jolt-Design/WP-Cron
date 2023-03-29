@@ -9,11 +9,11 @@
     "messagePattern": "$J $M"
   },
   "scripts": {
-    "build": "sh docker-commands/build.sh",
+    "build": "sh bin/build.sh",
     "deploy": "npm-run-all -s build tag push",
     "postinstall": "husky install",
-    "push": "sh docker-commands/push.sh",
-    "tag": "sh docker-commands/tag.sh"
+    "push": "sh bin/push.sh",
+    "tag": "sh bin/tag.sh"
   },
   "devDependencies": {
     "husky": "^8.0.3",
