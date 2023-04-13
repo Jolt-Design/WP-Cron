@@ -4,4 +4,4 @@
 
 echo Running WP Cron...
 echo WordPress Host: $WORDPRESS_HOST
-exec wget -q -O - http://${WORDPRESS_HOST:-web}/wp-cron.php?doing_wp_cron 2>&1
+exec wget -q -O - http://${WORDPRESS_HOST}/wp-cron.php?doing_wp_cron 2>&1

@@ -12,5 +12,8 @@ RUN chmod a+x /usr/local/bin/wp-cron/cron.sh
 # Run the cron every minute
 RUN echo '*  *  *  *  *    /usr/local/bin/wp-cron/cron.sh' > /etc/crontabs/root
 
+# Default hostname to web
+ENV WORDPRESS_HOST web
+
 ENTRYPOINT ["/sbin/tini", "--"]
 CMD ["crond", "-l", "2", "-f"]
