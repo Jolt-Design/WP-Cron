@@ -1,4 +1,4 @@
-FROM alpine:3.17
+FROM alpine
 
 RUN apk add --no-cache tini
 RUN mkdir -p /usr/local/bin/wp-cron/
