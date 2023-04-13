@@ -28,6 +28,6 @@ The `depends_on` section prevents cron from trying to run before the container i
 
 Run `yarn install` the first time you clone the repo.
 
-To build a new version of this image, make your changes in `build/src` then run `yarn deploy`. Your Docker Hub account must be added as a collaborator on the [Docker Hub repo](repo) to be able to deploy the changes.
+To build a new version of this image, make your changes in `build/src` then run `yarn deploy`. Your Docker Hub account must be added as a collaborator on the [Docker Hub repo](repo) to be able to deploy the changes and you must have run `docker login` first.
 
 [repo]: https://hub.docker.com/r/joltdesign/wp-cron
