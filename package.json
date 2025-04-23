@@ -10,6 +10,8 @@
     "ignoredBranchesPattern": "^dependabot/"
   },
   "scripts": {
+    "bake": "docker buildx bake",
+    "bake:push": "run bake --push",
     "build": "sh bin/build.sh",
     "deploy": "run-s build tag push",
     "postinstall": "husky",
