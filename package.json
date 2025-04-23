@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "sh bin/build.sh",
-    "deploy": "npm-run-all -s build tag push",
+    "deploy": "run-s build tag push",
     "postinstall": "husky install",
     "push": "sh bin/push.sh",
     "tag": "sh bin/tag.sh"
