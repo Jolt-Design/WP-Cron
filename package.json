@@ -1,7 +1,7 @@
 {
   "name": "@joltdesign/wp-cron",
   "version": "1.0.0",
-  "repository": "git@bitbucket.org:joltdesignltd/jolt-wp-cron.git",
+  "repository": "git@github.com:Jolt-Design/WP-Cron.git",
   "author": "Jolt Design <studio@joltdesign.co.uk>",
   "license": "None",
   "private": true,
