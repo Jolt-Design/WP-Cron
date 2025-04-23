@@ -13,7 +13,7 @@ RUN chmod a+x /usr/local/bin/wp-cron/cron.sh
 RUN echo '*  *  *  *  *    /usr/local/bin/wp-cron/cron.sh' > /etc/crontabs/root
 
 # Default hostname to web
-ENV WORDPRESS_HOST web
+ENV WORDPRESS_HOST=web
 
 ENTRYPOINT ["/sbin/tini", "--"]
 CMD ["crond", "-l", "2", "-f"]
