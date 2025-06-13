@@ -1,0 +1,6 @@
+{
+    "buildContext": "build",
+    "buildPlatform": "linux/amd64",
+    "imageName": "joltdesign/wp-cron",
+    "remoteRepo": "joltdesign/wp-cron"
+}
