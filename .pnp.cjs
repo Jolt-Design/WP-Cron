@@ -30,6 +30,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@joltdesign/scripts", "npm:0.11.0"],\
           ["@joltdesign/wp-cron", "workspace:."],\
+          ["cross-env", "npm:7.0.3"],\
           ["npm-run-all", "npm:4.1.5"]\
         ],\
         "linkType": "SOFT"\
@@ -56,6 +57,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@joltdesign/scripts", "npm:0.11.0"],\
           ["@joltdesign/wp-cron", "workspace:."],\
+          ["cross-env", "npm:7.0.3"],\
           ["npm-run-all", "npm:4.1.5"]\
         ],\
         "linkType": "SOFT"\
@@ -298,6 +300,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/concat-map-npm-0.0.1-85a921b7ee-c996b1cfdf.zip/node_modules/concat-map/",\
         "packageDependencies": [\
           ["concat-map", "npm:0.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["cross-env", [\
+      ["npm:7.0.3", {\
+        "packageLocation": "./.yarn/cache/cross-env-npm-7.0.3-96d81820f4-f3765c2574.zip/node_modules/cross-env/",\
+        "packageDependencies": [\
+          ["cross-env", "npm:7.0.3"],\
+          ["cross-spawn", "npm:7.0.6"]\
         ],\
         "linkType": "HARD"\
       }]\
