@@ -5,9 +5,9 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"@joltdesign/scripts@npm:^0.11.0":
-  version: 0.11.0
-  resolution: "@joltdesign/scripts@npm:0.11.0"
+"@joltdesign/scripts@npm:^0.12.4":
+  version: 0.12.4
+  resolution: "@joltdesign/scripts@npm:0.12.4"
   dependencies:
     ansis: "npm:^4.1.0"
     clipanion: "npm:^4.0.0-rc.4"
@@ -17,7 +17,7 @@ __metadata:
     typanion: "npm:^3.14.0"
   bin:
     jolt: ./dist/cli.js
-  checksum: 10c0/04321177ed503513b2b21b299fff2e85e34441f1877fe93e481a93a8bace7c22e56c181cec2f9af969687978d2ce3d6adfa8cb0188ee2058456321795d1c7525
+  checksum: 10c0/3c2d2525a7d198f100e485bea50a3f3ff1569ad7e6298453ad695e8866abd6d4e8033ad42b999ee15cab1c1154df4f191a21e531fffd5c326f240f7e100cf563
   languageName: node
   linkType: hard
 
@@ -25,7 +25,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@joltdesign/wp-cron@workspace:."
   dependencies:
-    "@joltdesign/scripts": "npm:^0.11.0"
+    "@joltdesign/scripts": "npm:^0.12.4"
     cross-env: "npm:^7.0.3"
     npm-run-all: "npm:^4.1.5"
   languageName: unknown

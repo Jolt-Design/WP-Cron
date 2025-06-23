@@ -28,7 +28,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@joltdesign/scripts", "npm:0.11.0"],\
+          ["@joltdesign/scripts", "npm:0.12.4"],\
           ["@joltdesign/wp-cron", "workspace:."],\
           ["cross-env", "npm:7.0.3"],\
           ["npm-run-all", "npm:4.1.5"]\
@@ -37,12 +37,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@joltdesign/scripts", [\
-      ["npm:0.11.0", {\
-        "packageLocation": "./.yarn/cache/@joltdesign-scripts-npm-0.11.0-05788e6eb7-04321177ed.zip/node_modules/@joltdesign/scripts/",\
+      ["npm:0.12.4", {\
+        "packageLocation": "./.yarn/cache/@joltdesign-scripts-npm-0.12.4-798d098b9a-3c2d2525a7.zip/node_modules/@joltdesign/scripts/",\
         "packageDependencies": [\
-          ["@joltdesign/scripts", "npm:0.11.0"],\
+          ["@joltdesign/scripts", "npm:0.12.4"],\
           ["ansis", "npm:4.1.0"],\
-          ["clipanion", "virtual:05788e6eb7eba7ad00a94e8fa34f9311d8ca3000ebf9a61e24758124d6e24523e5e52f7c872ca2776dbbbc46bd680e29c2e3c192b1b46437bbb1f5b2195b2802#npm:4.0.0-rc.4"],\
+          ["clipanion", "virtual:798d098b9aaa8617ce100e4cd57fa050c8c4a6695a6cd62bcdd1d004bd4ae363c41df1a8fcc33d025facd0549367c1d94580353cd4a9adaeb00272b8752c3819#npm:4.0.0-rc.4"],\
           ["dotenv", "npm:16.5.0"],\
           ["execa", "npm:9.6.0"],\
           ["shelljs", "npm:0.10.0"],\
@@ -55,7 +55,7 @@ const RAW_RUNTIME_STATE =
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@joltdesign/scripts", "npm:0.11.0"],\
+          ["@joltdesign/scripts", "npm:0.12.4"],\
           ["@joltdesign/wp-cron", "workspace:."],\
           ["cross-env", "npm:7.0.3"],\
           ["npm-run-all", "npm:4.1.5"]\
@@ -262,11 +262,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:05788e6eb7eba7ad00a94e8fa34f9311d8ca3000ebf9a61e24758124d6e24523e5e52f7c872ca2776dbbbc46bd680e29c2e3c192b1b46437bbb1f5b2195b2802#npm:4.0.0-rc.4", {\
-        "packageLocation": "./.yarn/__virtual__/clipanion-virtual-0de313dd0e/0/cache/clipanion-npm-4.0.0-rc.4-40deb7eb3b-047b415b59.zip/node_modules/clipanion/",\
+      ["virtual:798d098b9aaa8617ce100e4cd57fa050c8c4a6695a6cd62bcdd1d004bd4ae363c41df1a8fcc33d025facd0549367c1d94580353cd4a9adaeb00272b8752c3819#npm:4.0.0-rc.4", {\
+        "packageLocation": "./.yarn/__virtual__/clipanion-virtual-4a084ad217/0/cache/clipanion-npm-4.0.0-rc.4-40deb7eb3b-047b415b59.zip/node_modules/clipanion/",\
         "packageDependencies": [\
           ["@types/typanion", null],\
-          ["clipanion", "virtual:05788e6eb7eba7ad00a94e8fa34f9311d8ca3000ebf9a61e24758124d6e24523e5e52f7c872ca2776dbbbc46bd680e29c2e3c192b1b46437bbb1f5b2195b2802#npm:4.0.0-rc.4"],\
+          ["clipanion", "virtual:798d098b9aaa8617ce100e4cd57fa050c8c4a6695a6cd62bcdd1d004bd4ae363c41df1a8fcc33d025facd0549367c1d94580353cd4a9adaeb00272b8752c3819#npm:4.0.0-rc.4"],\
           ["typanion", "npm:3.14.0"]\
         ],\
         "packagePeers": [\
