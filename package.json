@@ -14,12 +14,12 @@
     "bake:push": "run bake --push",
     "build": "jolt docker build",
     "deploy": "run-s build tag push",
-    "postinstall": "npx --yes --prefer-offline husky",
+    "prepare": "jolt prepare",
     "push": "jolt docker push",
     "tag": "jolt docker tag"
   },
   "devDependencies": {
-    "@joltdesign/scripts": "^0.12.6",
+    "@joltdesign/scripts": "^0.13.0",
     "cross-env": "^7.0.3",
     "npm-run-all2": "^8.0.4"
   },
