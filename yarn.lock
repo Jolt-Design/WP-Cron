@@ -12,9 +12,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@joltdesign/scripts@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "@joltdesign/scripts@npm:1.0.1"
+"@joltdesign/scripts@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "@joltdesign/scripts@npm:1.1.1"
   dependencies:
     ansis: "npm:^4.2.0"
     change-case: "npm:^5.4.4"
@@ -27,7 +27,7 @@ __metadata:
     zod: "npm:^4.1.12"
   bin:
     jolt: ./dist/cli.js
-  checksum: 10c0/67eabfd76baf197692d6819b2504fae92eec17b221b194283abe059b3647d161cb0afdc62cc97916a1a98c41381be14ca7ed29ce53a0458d2027b6e8cd881e02
+  checksum: 10c0/53ea0e384b8655cf398d3aa371f698331d7312dbc50bfd06d4b327e9f676e3d648153e75b601ec6b46d6522799c7df0e0a2f3d2ba561059b7cea6401f4b9020f
   languageName: node
   linkType: hard
 
@@ -35,7 +35,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@joltdesign/wp-cron@workspace:."
   dependencies:
-    "@joltdesign/scripts": "npm:^1.0.1"
+    "@joltdesign/scripts": "npm:^1.1.1"
     cross-env: "npm:^10.1.0"
     npm-run-all2: "npm:^8.0.4"
   languageName: unknown
