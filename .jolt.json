@@ -1,4 +1,5 @@
 {
+    "$schema": "https://jolt-design.github.io/Jolt-Scripts/jolt-config.schema.json",
     "buildContext": "build",
     "buildPlatform": "linux/amd64,linux/arm64",
     "imageName": "joltdesign/wp-cron",
