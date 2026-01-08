@@ -19,7 +19,7 @@
     "tag": "jolt docker tag"
   },
   "devDependencies": {
-    "@joltdesign/scripts": "^1.1.1",
+    "@joltdesign/scripts": "^1.1.2",
     "cross-env": "^10.1.0",
     "npm-run-all2": "^8.0.4"
   },
