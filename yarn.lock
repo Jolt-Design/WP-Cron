@@ -37,7 +37,7 @@ __metadata:
   dependencies:
     "@joltdesign/scripts": "npm:^1.5.0"
     cross-env: "npm:^10.1.0"
-    npm-run-all2: "npm:^9.0.0"
+    npm-run-all2: "npm:^9.0.1"
   languageName: unknown
   linkType: soft
 
@@ -220,7 +220,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"npm-run-all2@npm:^9.0.0":
+"npm-run-all2@npm:^9.0.1":
   version: 9.0.1
   resolution: "npm-run-all2@npm:9.0.1"
   dependencies:
